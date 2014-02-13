@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8814021118AD76B4006DCD04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8814021018AD76B4006DCD04 /* Foundation.framework */; };
+		8814021318AD76B4006DCD04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8814021218AD76B4006DCD04 /* CoreGraphics.framework */; };
+		8814021518AD76B4006DCD04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8814021418AD76B4006DCD04 /* UIKit.framework */; };
+		8814021B18AD76B4006DCD04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8814021918AD76B4006DCD04 /* InfoPlist.strings */; };
+		8814021D18AD76B4006DCD04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8814021C18AD76B4006DCD04 /* main.m */; };
+		8814022118AD76B4006DCD04 /* CMGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8814022018AD76B4006DCD04 /* CMGAppDelegate.m */; };
+		8814022418AD76B4006DCD04 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8814022218AD76B4006DCD04 /* Main_iPhone.storyboard */; };
+		8814022718AD76B4006DCD04 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8814022518AD76B4006DCD04 /* Main_iPad.storyboard */; };
+		8814022A18AD76B4006DCD04 /* CMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8814022918AD76B4006DCD04 /* CMGViewController.m */; };
+		8814022C18AD76B4006DCD04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8814022B18AD76B4006DCD04 /* Images.xcassets */; };
+		8814023318AD76B4006DCD04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8814023218AD76B4006DCD04 /* XCTest.framework */; };
+		8814023418AD76B4006DCD04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8814021018AD76B4006DCD04 /* Foundation.framework */; };
+		8814023518AD76B4006DCD04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8814021418AD76B4006DCD04 /* UIKit.framework */; };
+		8814023D18AD76B4006DCD04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8814023B18AD76B4006DCD04 /* InfoPlist.strings */; };
+		8814023F18AD76B4006DCD04 /* CMGCloudSyncTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8814023E18AD76B4006DCD04 /* CMGCloudSyncTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8814023618AD76B4006DCD04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8814020518AD76B4006DCD04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8814020C18AD76B4006DCD04;
+			remoteInfo = CMGCloudSyncTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8814020D18AD76B4006DCD04 /* CMGCloudSyncTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMGCloudSyncTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8814021018AD76B4006DCD04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8814021218AD76B4006DCD04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8814021418AD76B4006DCD04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8814021818AD76B4006DCD04 /* CMGCloudSyncTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMGCloudSyncTest-Info.plist"; sourceTree = "<group>"; };
+		8814021A18AD76B4006DCD04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8814021C18AD76B4006DCD04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8814021E18AD76B4006DCD04 /* CMGCloudSyncTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMGCloudSyncTest-Prefix.pch"; sourceTree = "<group>"; };
+		8814021F18AD76B4006DCD04 /* CMGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMGAppDelegate.h; sourceTree = "<group>"; };
+		8814022018AD76B4006DCD04 /* CMGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMGAppDelegate.m; sourceTree = "<group>"; };
+		8814022318AD76B4006DCD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8814022618AD76B4006DCD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8814022818AD76B4006DCD04 /* CMGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMGViewController.h; sourceTree = "<group>"; };
+		8814022918AD76B4006DCD04 /* CMGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMGViewController.m; sourceTree = "<group>"; };
+		8814022B18AD76B4006DCD04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8814023118AD76B4006DCD04 /* CMGCloudSyncTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMGCloudSyncTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8814023218AD76B4006DCD04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8814023A18AD76B4006DCD04 /* CMGCloudSyncTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMGCloudSyncTestTests-Info.plist"; sourceTree = "<group>"; };
+		8814023C18AD76B4006DCD04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8814023E18AD76B4006DCD04 /* CMGCloudSyncTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMGCloudSyncTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8814020A18AD76B4006DCD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8814021318AD76B4006DCD04 /* CoreGraphics.framework in Frameworks */,
+				8814021518AD76B4006DCD04 /* UIKit.framework in Frameworks */,
+				8814021118AD76B4006DCD04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8814022E18AD76B4006DCD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8814023318AD76B4006DCD04 /* XCTest.framework in Frameworks */,
+				8814023518AD76B4006DCD04 /* UIKit.framework in Frameworks */,
+				8814023418AD76B4006DCD04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8814020418AD76B4006DCD04 = {
+			isa = PBXGroup;
+			children = (
+				8814021618AD76B4006DCD04 /* CMGCloudSyncTest */,
+				8814023818AD76B4006DCD04 /* CMGCloudSyncTestTests */,
+				8814020F18AD76B4006DCD04 /* Frameworks */,
+				8814020E18AD76B4006DCD04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8814020E18AD76B4006DCD04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8814020D18AD76B4006DCD04 /* CMGCloudSyncTest.app */,
+				8814023118AD76B4006DCD04 /* CMGCloudSyncTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8814020F18AD76B4006DCD04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8814021018AD76B4006DCD04 /* Foundation.framework */,
+				8814021218AD76B4006DCD04 /* CoreGraphics.framework */,
+				8814021418AD76B4006DCD04 /* UIKit.framework */,
+				8814023218AD76B4006DCD04 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8814021618AD76B4006DCD04 /* CMGCloudSyncTest */ = {
+			isa = PBXGroup;
+			children = (
+				8814021F18AD76B4006DCD04 /* CMGAppDelegate.h */,
+				8814022018AD76B4006DCD04 /* CMGAppDelegate.m */,
+				8814022218AD76B4006DCD04 /* Main_iPhone.storyboard */,
+				8814022518AD76B4006DCD04 /* Main_iPad.storyboard */,
+				8814022818AD76B4006DCD04 /* CMGViewController.h */,
+				8814022918AD76B4006DCD04 /* CMGViewController.m */,
+				8814022B18AD76B4006DCD04 /* Images.xcassets */,
+				8814021718AD76B4006DCD04 /* Supporting Files */,
+			);
+			path = CMGCloudSyncTest;
+			sourceTree = "<group>";
+		};
+		8814021718AD76B4006DCD04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8814021818AD76B4006DCD04 /* CMGCloudSyncTest-Info.plist */,
+				8814021918AD76B4006DCD04 /* InfoPlist.strings */,
+				8814021C18AD76B4006DCD04 /* main.m */,
+				8814021E18AD76B4006DCD04 /* CMGCloudSyncTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8814023818AD76B4006DCD04 /* CMGCloudSyncTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8814023E18AD76B4006DCD04 /* CMGCloudSyncTestTests.m */,
+				8814023918AD76B4006DCD04 /* Supporting Files */,
+			);
+			path = CMGCloudSyncTestTests;
+			sourceTree = "<group>";
+		};
+		8814023918AD76B4006DCD04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8814023A18AD76B4006DCD04 /* CMGCloudSyncTestTests-Info.plist */,
+				8814023B18AD76B4006DCD04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8814020C18AD76B4006DCD04 /* CMGCloudSyncTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8814024218AD76B4006DCD04 /* Build configuration list for PBXNativeTarget "CMGCloudSyncTest" */;
+			buildPhases = (
+				8814020918AD76B4006DCD04 /* Sources */,
+				8814020A18AD76B4006DCD04 /* Frameworks */,
+				8814020B18AD76B4006DCD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMGCloudSyncTest;
+			productName = CMGCloudSyncTest;
+			productReference = 8814020D18AD76B4006DCD04 /* CMGCloudSyncTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8814023018AD76B4006DCD04 /* CMGCloudSyncTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8814024518AD76B4006DCD04 /* Build configuration list for PBXNativeTarget "CMGCloudSyncTestTests" */;
+			buildPhases = (
+				8814022D18AD76B4006DCD04 /* Sources */,
+				8814022E18AD76B4006DCD04 /* Frameworks */,
+				8814022F18AD76B4006DCD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8814023718AD76B4006DCD04 /* PBXTargetDependency */,
+			);
+			name = CMGCloudSyncTestTests;
+			productName = CMGCloudSyncTestTests;
+			productReference = 8814023118AD76B4006DCD04 /* CMGCloudSyncTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8814020518AD76B4006DCD04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CMG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Chris Greening";
+				TargetAttributes = {
+					8814023018AD76B4006DCD04 = {
+						TestTargetID = 8814020C18AD76B4006DCD04;
+					};
+				};
+			};
+			buildConfigurationList = 8814020818AD76B4006DCD04 /* Build configuration list for PBXProject "CMGCloudSyncTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8814020418AD76B4006DCD04;
+			productRefGroup = 8814020E18AD76B4006DCD04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8814020C18AD76B4006DCD04 /* CMGCloudSyncTest */,
+				8814023018AD76B4006DCD04 /* CMGCloudSyncTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8814020B18AD76B4006DCD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8814022718AD76B4006DCD04 /* Main_iPad.storyboard in Resources */,
+				8814022C18AD76B4006DCD04 /* Images.xcassets in Resources */,
+				8814022418AD76B4006DCD04 /* Main_iPhone.storyboard in Resources */,
+				8814021B18AD76B4006DCD04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8814022F18AD76B4006DCD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8814023D18AD76B4006DCD04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8814020918AD76B4006DCD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8814022118AD76B4006DCD04 /* CMGAppDelegate.m in Sources */,
+				8814021D18AD76B4006DCD04 /* main.m in Sources */,
+				8814022A18AD76B4006DCD04 /* CMGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8814022D18AD76B4006DCD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8814023F18AD76B4006DCD04 /* CMGCloudSyncTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8814023718AD76B4006DCD04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8814020C18AD76B4006DCD04 /* CMGCloudSyncTest */;
+			targetProxy = 8814023618AD76B4006DCD04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8814021918AD76B4006DCD04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8814021A18AD76B4006DCD04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8814022218AD76B4006DCD04 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8814022318AD76B4006DCD04 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8814022518AD76B4006DCD04 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8814022618AD76B4006DCD04 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8814023B18AD76B4006DCD04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8814023C18AD76B4006DCD04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8814024018AD76B4006DCD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8814024118AD76B4006DCD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8814024318AD76B4006DCD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMGCloudSyncTest/CMGCloudSyncTest-Prefix.pch";
+				INFOPLIST_FILE = "CMGCloudSyncTest/CMGCloudSyncTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8814024418AD76B4006DCD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMGCloudSyncTest/CMGCloudSyncTest-Prefix.pch";
+				INFOPLIST_FILE = "CMGCloudSyncTest/CMGCloudSyncTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8814024618AD76B4006DCD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CMGCloudSyncTest.app/CMGCloudSyncTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMGCloudSyncTest/CMGCloudSyncTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CMGCloudSyncTestTests/CMGCloudSyncTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8814024718AD76B4006DCD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CMGCloudSyncTest.app/CMGCloudSyncTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMGCloudSyncTest/CMGCloudSyncTest-Prefix.pch";
+				INFOPLIST_FILE = "CMGCloudSyncTestTests/CMGCloudSyncTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8814020818AD76B4006DCD04 /* Build configuration list for PBXProject "CMGCloudSyncTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8814024018AD76B4006DCD04 /* Debug */,
+				8814024118AD76B4006DCD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8814024218AD76B4006DCD04 /* Build configuration list for PBXNativeTarget "CMGCloudSyncTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8814024318AD76B4006DCD04 /* Debug */,
+				8814024418AD76B4006DCD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8814024518AD76B4006DCD04 /* Build configuration list for PBXNativeTarget "CMGCloudSyncTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8814024618AD76B4006DCD04 /* Debug */,
+				8814024718AD76B4006DCD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8814020518AD76B4006DCD04 /* Project object */;
+}
