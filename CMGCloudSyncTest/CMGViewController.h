@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CMGViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *string1TextField;
+@property (weak, nonatomic) IBOutlet UITextField *string2TextField;
 
 @end
